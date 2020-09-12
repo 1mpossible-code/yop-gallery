@@ -1,0 +1,112 @@
+body {
+    padding: 0 0 50px;
+    font-family: "Clear Sans", "DejaVu Sans", "Open Sans", sans-serif;
+    font-size: 16px;
+    margin: 5px;
+    border: 2px solid aquamarine;
+    border-radius: 25px;
+}
+.title {
+    width: 100%;
+    text-align: center;
+}
+h1{
+    color: aquamarine;
+}
+.img-cont {
+    width: 32%;
+    margin: 0 0.5% 1% 0.5%;
+    float: left;
+    overflow: hidden;
+    transition: .3s;
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+}
+.image {
+    width: 100%;
+    height: 20em;
+    transition: .3s ease-in;
+}
+.image:hover {filter: brightness(1.5);width: 120%;margin-left: -10%;height: 21em;margin-top: -10px}
+.gal {
+    margin-top: 50px;
+    display: block;
+    height: auto;
+    margin-left: 1%;
+    padding: 5px;
+}
+.yop-cont {
+    width: 100%;
+    display: flow-root;
+}
+.pagination-flex {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    -moz-user-select: none;
+    user-select: none;
+
+}
+
+.pagination-flex div {
+    padding: 4px 12px;
+    border: 2px solid aquamarine;
+    border-radius: 5px;
+    margin: 0 3px;
+    transition: .3s;
+    cursor: pointer;
+}
+.pagination-flex div:hover {color: aquamarine;font-size: 18px;margin: -3px 0;}
+
+.active {
+    color: red !important;
+}
+.show-more {
+    margin: 0 auto;
+    background: #fff;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+.show-more:hover {
+    font-size: 18px;
+    color: aquamarine;
+}
+
+@media screen and (max-width: 1440px) {
+    .img-cont {height: 15em}
+    .image {height: 15em}
+    .image:hover {height: 16em}
+}
+@media screen and (max-width: 1024px) {
+    .img-cont {height: 12em}
+    .image {height: 12em}
+    .image:hover {height: 13em}
+}
+@media screen and (max-width: 850px) {
+    .img-cont {height: 10em}
+    .image {height: 10em}
+    .image:hover {height: 11em}
+    body {font-size: 14px;}
+}
+@media screen and (max-width: 700px) {
+    .img-cont {height: 8em}
+    .image {height: 8em}
+    .image:hover {height: 9em}
+}
+@media screen and (max-width: 500px) {
+    .img-cont {height: 100%; width: 100%;}
+    .image {height: 100%}
+    .image:hover {height: 120%}
+    .gal{margin-left: -1%;margin-top: 2%;}
+    body {font-size: 10px;}
+    .pagination-flex{flex-direction: column;}
+}
