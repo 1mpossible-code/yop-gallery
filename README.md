@@ -4,7 +4,6 @@ YOP-gallery is a library that allows easy creating pagination for content
 ![](https://img.shields.io/github/license/1mpossible-code/yop-gallery?color=blue)
 ![](https://img.shields.io/github/size/1mpossible-code/yop-gallery/0.1/yop-gallery.min.js?color=green&label=script%20size)
 
-##Menu
 * [Howto](#howto)
     * [Installation](#installation)
 * [Features](#features)
