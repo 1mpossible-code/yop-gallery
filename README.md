@@ -1,6 +1,10 @@
 # Your own paginated YOP-gallery
-It's a library that creates an easy 
+YOP-gallery is a library that allows easy creating pagination for content
 
+![](https://img.shields.io/github/license/1mpossible-code/yop-gallery?color=blue)
+![](https://img.shields.io/github/size/1mpossible-code/yop-gallery/0.1/yop-gallery.min.js?color=green&label=script%20size)
+
+##Menu
 * [Howto](#howto)
     * [Installation](#installation)
 * [Features](#features)
@@ -64,11 +68,18 @@ _P.S. If you use different `whatVisible` and `currentPage` it can break the scri
 - [ ] Object oriented version of program
 - [ ] GitBook Documentation
 - [ ] Easy configuring
+- [ ] Contributing page
 
 If you have a good idea or concept for the program, [please contact the author](#contacts)
 
 # Contributors
+_Now contributing page is not created._
+
 If you want to contribute the project, [contact the author](#contacts)
 
 # Contacts
 You can mail to `1mpossible@disroot.org` to contact the author
+
+# License
+Copyright © 2020 [1mpossible-code](#contacts).
+This project is [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) licensed.
